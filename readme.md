@@ -1,1 +1,1 @@
-https://krzysztof-kryczka.github.io/goit-markup-hw-01/
+https://krzysztof-kryczka.github.io/goit-markup-hw-02/
