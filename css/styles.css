@@ -16,7 +16,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: var(--brand-background-light);
     color: var(--brand-color-black);
 }
 
