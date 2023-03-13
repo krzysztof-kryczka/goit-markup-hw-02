@@ -23,14 +23,11 @@ body {
 /* *************** repetitive pieces of code *************** */
 
 .btn {
+    font-family: 'Roboto', sans-serif;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-}
-
-.type-list {
-    list-style-type: none;
 }
 
 .head-caption {
@@ -40,13 +37,6 @@ body {
 }
 
 /* *************** COMMON *************** */
-
-.wrapper {
-    width: 1600px;
-    margin: 0 auto;
-    background-color: var(--brand-background-white);
-    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-}
 
 .header {
     border-bottom: 1px solid #ECECEC;
@@ -73,10 +63,7 @@ body {
     font-weight: 500;
     color: var(--brand-color-black);
 }
-
-.menu-link:hover,
-.menu-link:focus,
-.menu-link:active {
+.menu-link:is(:hover, :focus, :active) {
     color: var(--brand-color-blue);
 }
 
@@ -94,9 +81,7 @@ body {
     text-decoration: none;
 }
 
-.contact-list a:hover,
-.contact-list a:focus,
-.contact-list a:active {
+.contact-list:is(:hover, :focus, :active) {
     color: var(--brand-color-blue);
 }
 
@@ -147,9 +132,7 @@ body {
     text-decoration: none;
 }
 
-.footer .address-link:hover,
-.footer .address-link:focus,
-.footer .address-link:active {
+.footer .address-link:is(:hover, :focus, :active) {
     color: var(--brand-color-white);
 }
 
@@ -196,9 +179,7 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.hero-btn:hover,
-.hero-btn:focus,
-.hero-btn:active {
+.hero-btn:is(:hover, :focus, :active) {
     background-color: var(--brand-color-white);
     color: var(--brand-color-blue);
 }
@@ -297,8 +278,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.filter-btn:hover,
-.filter-btn:focus {
+.filter-btn:is(:hover, :focus) {
     background-color: var(--brand-color-blue);
     color: var(--brand-color-white);
 }
