@@ -1,10 +1,14 @@
+/* IMPORT FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 
+/* BRAND COLORS */
 :root {
+    /* primary colors */
     --brand-color-black: #212121;
     --brand-color-grey: #757575;
     --brand-color-white: #fff;
     --brand-color-blue: #2196f3;
+    /* primary background */
     --brand-background-light: #E5E5E5;
     --brand-background-dark: #2F303A;
     --brand-background-white: var(--brand-color-white);
@@ -77,6 +81,7 @@ body {
 }
 
 /* SECTION CONTACT in header */
+
 .contact-list {
     font-size: 14px;
     line-height: 1.1;
@@ -220,8 +225,10 @@ body {
     color: var(--brand-color-grey);
 }
 
-.offers {
+/* SECTION OFFER */
 
+.offers {
+    text-align: center;
 }
 
 .offer-content {
@@ -236,8 +243,11 @@ body {
 
 }
 
-.team {
+/* SECTION TEAM */
 
+.team {
+    text-align: center;
+    background-color: #f5f4fa;
 }
 
 .team-content {
@@ -245,15 +255,21 @@ body {
 }
 
 .team-item {
-
+    background-color: var(--brand-color-white);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-description-header {
-
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 .team-description-text {
-
+    color: var(--brand-color-grey);
+    line-height: 1.2;
+    letter-spacing: 0.03em;
 }
 
 /* *************** portfolio.html *************** */
