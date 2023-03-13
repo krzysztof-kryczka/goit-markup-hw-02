@@ -29,19 +29,23 @@ body {
     list-style-type: none;
 }
 
+/* *************** COMMON *************** */
+
 .wrapper {
-    
+    width: 1600px;
+    margin: 0 auto;
+    background-color: var(--brand-background-white);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .header {
-
+    border-bottom: 1px solid #ECECEC;
+    min-height: 80px;
 }
+
+/* NAVIGATION in header */
 
 .nav {
-
-}
-
-.main {
 
 }
 
@@ -54,34 +58,42 @@ body {
 }
 
 .menu-link {
-
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--brand-color-black);
 }
 
 .menu-link:hover,
 .menu-link:focus,
 .menu-link:active {
-
+    color: var(--brand-color-blue);
 }
 
+/* SECTION CONTACT in header */
 .contact-list {
-
+    font-size: 14px;
+    line-height: 1.1;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .contact-list a {
-
+    color: var(--brand-color-grey);
+    text-decoration: none;
 }
 
 .contact-list a:hover,
 .contact-list a:focus,
 .contact-list a:active {
-
+    color: var(--brand-color-blue);
 }
 
 .contact-item {
 
 }
 
-/* SECTION LOGO - common */
+/* SECTION LOGO */
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -97,7 +109,7 @@ body {
     color: var(--brand-color-blue);
 }
 
-/* SECTION FOOTER - common */
+/* SECTION FOOTER */
 
 .footer {
     background-color: var(--brand-background-dark);
@@ -106,7 +118,7 @@ body {
 
 .footer .logo {
     color: var(--brand-color-white);
-    
+
 }
 
 .footer address {
@@ -133,6 +145,10 @@ body {
 
 .footer .address-item span {
     text-decoration: underline;
+}
+
+.main {
+    
 }
 
 .hero {
