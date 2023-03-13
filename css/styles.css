@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+    --brand-color-black: #212121;
+    --brand-color-grey: #757575;
+    --brand-color-white: #fff;
+    --brand-color-blue: #2196f3;
+    --brand-background-light: #E5E5E5;
+    --brand-background-dark: #2F303A;
+    --brand-background-white: var(--brand-color-white);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--brand-background-light);
+    color: var(--brand-color-black);
+}
+
+.wrapper {
+    
+}
+
+.header {
+
+}
+
+.nav {
+
+}
+
+.main {
+
+}
+
+.footer {
+
+}
+
+.menu-list {
+
+}
+
+.menu-item {
+
+}
+
+.menu-link {
+
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.menu-link:active {
+
+}
+
+.contact-list {
+
+}
+
+.contact-list a {
+
+}
+
+.contact-list a:hover,
+.contact-list a:focus,
+.contact-list a:active {
+
+}
+
+.contact-item {
+
+}
+
+.logo {
+
+}
+
+.logo-trademark-color {
+
+}
+
+.hero {
+
+}
+
+.btn {
+
+}
+
+.head-caption {
+
+}
+
+.type-list {
+
+}
+
+.hero-content {
+
+}
+
+.hero-title {
+
+}
+
+.hero-btn {
+
+}
+
+.hero-btn:hover,
+.hero-btn:focus,
+.hero-btn:active {
+
+}
+
+.advantages {
+
+}
+
+.advantage-item {
+
+}
+
+.advantage-title {
+
+}
+
+.advantage-text {
+
+}
+
+.offers {
+
+}
+
+.offer-content {
+
+}
+
+.offer-list {
+
+}
+
+.offer-item {
+
+}
+
+.team {
+
+}
+
+.team-content {
+
+}
+
+.team-item {
+
+}
+
+.team-description-header {
+
+}
+
+.team-description-text {
+
+}
+
+.filters {
+
+}
+
+.filter-list {
+
+}
+
+.filter-item {
+
+}
+
+.filter-btn {
+
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+
+}
+
+.projects {
+
+}
+
+.project-item {
+
+}
+
+.project-photo {
+
+}
+
+.project-description {
+
+}
+
+.project-description-header {
+
+}
+
+.project-description-text {
+
+}
